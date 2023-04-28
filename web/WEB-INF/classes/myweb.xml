@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myweb>
+	<controllers>
+		<controller path="/user/" class="cn.houserent.action.UserAction">
+			<method path="/dologin">login</method>
+			<method path="/doregister">register</method>
+			<method path="/findById">findById</method>
+		</controller>						
+	</controllers>
+</myweb>
